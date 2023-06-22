@@ -1,0 +1,22 @@
+/*medias*/
+@media (max-width:578px){
+    header{
+        nav{
+            ul{
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    main{
+        .slider-mujer{
+            display: none;
+        }
+        .envios-contacto{
+            display: none;
+        }
+        video{ 
+            width: 100%;
+        } 
+    } 
+}
